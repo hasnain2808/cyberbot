@@ -5,7 +5,9 @@ class searc():
     def initialsearch(self, querystr):
         test = subprocess.Popen(["searchsploit", "--json", "--id",querystr], stdout=subprocess.PIPE)
         output = test.communicate()
-        print(output)
+
+#        print(output)
+
         self.output = output
         return output
 
@@ -13,6 +15,6 @@ class searc():
     def finsearch(self, querystr):
         test = subprocess.Popen(["searchsploit", "--json","--exact", "--id",querystr], stdout=subprocess.PIPE)
         output = test.communicate()
-        print(output)
+#        print(output)
         self.output = output
         return output
