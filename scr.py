@@ -6,6 +6,10 @@ from selenium import webdriver
 # print(cve.text)
 # cve.close()
 
+'''
+This class scrapes the searchsploit website to find the CVE-ID for a specific EBDID
+'''
+
 class CVE:
     def __init__(self,  ed):
         self.ed = ed

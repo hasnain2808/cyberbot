@@ -15,7 +15,7 @@ def q1(inp):
 		global state 
 		state = 'q2'
 		# print(state)
-		print("q1")
+		#print("q1")
 		return "hey whats your domain ?"
 	else :
 		return "I wasn't able to understand please reframe"
@@ -24,7 +24,7 @@ def q2(inp):
 	obj1= searc()
 	#inp1=input('-->')
 	#"afd windows local"
-	print("q2")
+	#print("q2")
 	in1=str(obj1.initialsearch(inp)[0])[1:]
 	in1 = in1.replace('\\n','').replace('\\t','').replace('\\','')[1:-1]
 	in1_j=json.loads(in1)
@@ -33,7 +33,7 @@ def q2(inp):
 	return in1
 
 def q3(inp):
-	print("q3")
+	#print("q3")
 	ebd = CVE(inp)
 	cve = ebd.find()
 	global state
@@ -46,7 +46,7 @@ def q3(inp):
 	return cve
 
 def q4(inp):
-	print("q4")
+	#print("q4")
 	global state
 	global attrlis
 
@@ -135,7 +135,7 @@ def q5(inp):
 while True:
 	# global state
 	inp0=input('-->')
-	print("sta ",state)
+	#print("sta ",state)
 	if state == "q1":
 		out0 = q1(inp0)
 		print(out0)

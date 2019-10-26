@@ -4,6 +4,9 @@ reference_url=[]
 reference_name=[]
 reference_source=[]
 reference_tags=[]
+'''
+this class gets information about a query from the nvdce file and returns a json
+'''
 class dessearc:
 	def __init__(self, cve):
 		self.cve =cve

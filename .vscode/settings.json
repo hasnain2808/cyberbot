@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "aiis/bin/python3.6",
+    "editor.multiCursorModifier" : "ctrlCmd"
+}
