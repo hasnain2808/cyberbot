@@ -16,3 +16,7 @@ type qa to switch to bert powered natural language bot<br />
 <br />
 A file by the name AINHV.pdf in the repository is the project report<br />
 please read it for full details of the project.<br />
+
+The flow of the code follows the flowchart available on page 8 of the report
+The state management of the bot follows the finite automata available on page 12 of the report
+
