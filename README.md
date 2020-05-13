@@ -14,6 +14,8 @@ now you can ask about the attributes from nvd about this vulnerability.<br />
 type qa to switch to bert powered natural language bot<br />
 <br />
 <br />
+[Click here to read the report](https://github.com/hasnain2808/cyberbot/blob/master/AIHNV.pdf)
+
 A file by the name AINHV.pdf in the repository is the project report<br />
 please read it for full details of the project.<br />
 
